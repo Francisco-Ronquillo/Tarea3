@@ -63,7 +63,7 @@ class Numeros{
         let divisores=""
         
       
-        for(let i=1;i<=num;i++){
+        for(let i=1;i<num;i++){
             if(num%i==0){
                 divisores= divisores+" "+i+"<br>";
             }
@@ -78,7 +78,7 @@ class Numeros{
         let i=1;
         let num2=document.getElementById("num2").value
         let sum=document.getElementById("sum")
-        while(i<=num2){
+        while(i<num2){
             if(num2%i==0){
                 suma=suma+i
             }
@@ -94,7 +94,7 @@ class Numeros{
         let i=1;
         let num3=document.getElementById("num3").value
         let can=document.getElementById("can")
-        while(i<=num3){
+        while(i<num3){
             if(num3%i==0){
                 cantidad=cantidad+1
             }
